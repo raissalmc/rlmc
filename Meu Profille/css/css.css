@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@media screen and (max-width: 800px) {
+  header img{
+
+padding: 2%;
+padding-bottom: 0%;
+
+  }
+header nav{
+   font-size: 12px;
+   position: fixed;
+   display: flex;
+   flex-direction: column;
+  
+   
+   
+   margin: auto;
+   
+}
+   h1{
+      margin: 30%;
+   }
+   section.Sobre {
+      
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+   }
+   section.Portifolio{
+      
+      padding-top: 40%;
+      font-size: 12px;
+      width: 100%;
+      
+   }
+   section.Projetos{
+   
+      color: #323232;
+     width: 100%;
+     height: 100%;   
+     background: #e9e3ce;
+     padding: 5%;
+     border-radius: 10%;
+    }
+   section.Projetos:hover{
+      background: #e9e3cec0 ;
+      box-shadow: #DC3838 unset;
+      box-shadow: 5px -1.5px #e9e3cec0;
+      }
+
+     .footer{
+      font-size: 12px;
+     }
+
+     section.Redes{
+      border-radius: 10%;
+      margin: 30%;
+      
+      
+      
+      
+   }
+   section.Redes{
+
+      margin:5%;
+      
+      
+    
+      
+   }
+   
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+  
+   background-color: #323232;
+   background-image: linear-gradient(100deg, #323232 43%, #776262 100%);
+   ;
+  }
+  
+
+  nav{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-around;
+background-color: #323232;
+   background-image: linear-gradient(100deg, #323232 43%, #776262 100%);
+border-bottom:0.02px solid  #e9e3ce ;
+opacity: 95%;}
+
+  a{
+    text-decoration:none;
+    color:#e9e3ce;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+  }
+
+ a:hover{
+    color: #DC3838;
+ } 
+ img{
+    padding-right: 30%;
+ }
+
+.Sobre{
+    border-top:0.04px solid white ;
+    
+    font-weight: 200;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    color: #e9e3ce;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    
+    text-align: center;
+    line-height: 200%;
+    font-family: 'Noto Serif HK', serif;
+    padding:10%
+    
+ }
+ #menina{
+    height: 80%;
+    width: 80%;
+    padding-right:0% ;
+    
+ }
+ h1{
+    padding: 10%;
+    text-align: center;
+ }
+
+
+ .Portifolio{
+    border-top:0.04px solid white ;
+   
+   
+    color: #e9e3ce;
+    font-family: 'Noto Serif HK', serif;
+    text-align: center;  
+    padding: 15%;  
+    border-bottom:0.04px solid #e9e3ce ;
+ }
+
+
+
+
+.alinhamentoA{
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+     padding: 10%;
+}
+
+.Projetos{
+   
+   color: #323232;
+  width: 20%;
+  height: 50%;   
+  background: #e9e3ce;
+  padding: 5%;
+  border-radius: 10%;
+ }
+.Projetos:hover{
+background: #e9e3cec0 ;
+box-shadow: #DC3838 unset;
+box-shadow: 5px -1.5px #e9e3cec0;
+}
+
+.Redes{
+ 
+   margin:15%;
+   
+     display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+ 
+   
+}
+
+ img.red{
+   width: 100%;
+
+ }
+
+
+img.red:hover{
+   background:#e1dbc56b;
+   border-radius: 10%;
+
+}
+
+footer{
+   background: #e9e3ce;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 10px;;
+}
+.footer{
+   color: black;
+   font-size: 10px;
+}
+a:link{
+   text-decoration: none;
+   color: black;
+}
+
+
